@@ -24,13 +24,13 @@ app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 #   'ssl_ca':'DigiCertGlobalRootCA.crt.pem'
 # }
 config = {
-  'host':'cloudgp.mysql.database.azure.com', 
-  'user':'cloudfinal@cloudgp',
-  'password':'cloud@123',
-  'database':'ccdatabase',
+  'host':'azurefinal.mysql.database.azure.com', 
+  'user':'cloudfinal',
+  'password':'Qwerty@123',
+  'database':'ccfinal',
   'port': 3306,
   'ssl_ca': os.path.join(dir_path, 'BaltimoreCyberTrustRoot.crt.pem'),
-  'ssl_verify_cert': 'true',
+  'ssl_verify_cert': 'True',
   'connect_timeout':50
 }
 
