@@ -24,10 +24,10 @@ app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
 #   'ssl_ca':'DigiCertGlobalRootCA.crt.pem'
 # }
 config = {
-  'host':'azurefinal.mysql.database.azure.com', 
-  'user':'cloudfinal',
-  'password':'Qwerty@123',
-  'database':'ccfinal',
+  'host':'completejourney.mysql.database.azure.com', 
+  'user':'tejabalusu',
+  'password':'Welcome@786',
+  'database':'cloudfinal',
   'port': 3306,
   'ssl_ca': os.path.join(dir_path, 'BaltimoreCyberTrustRoot.crt.pem'),
   'ssl_verify_cert': 'True',
@@ -191,4 +191,4 @@ def insertCSVData():
 
 
 if __name__=="__main__":
-    app.run(host="0.0.0.0",port=8009)
+    app.run(host="0.0.0.0",port=8000)
